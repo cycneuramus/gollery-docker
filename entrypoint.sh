@@ -9,6 +9,6 @@ extract)
 	fi
 	go build
 
-	exec ./IfExifExtract 2>&1 | tee "$HOME"/data/extractor.log
+	exec ./IfExifExtract
 	;;
 esac
